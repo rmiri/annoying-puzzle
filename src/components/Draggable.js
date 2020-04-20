@@ -19,7 +19,7 @@ class Drag extends React.Component {
       <Draggable
         // axis="x"
         handle=".handle"
-        defaultPosition={{x: 500, y: 0}}
+        defaultPosition={{x: 50, y: 0}}
         position={null}
         grid={[1, 2]}
         scale={1}
@@ -55,7 +55,7 @@ class Drag extends React.Component {
         <Draggable
             axis="x"
             handle=".handle"
-            defaultPosition={{x: 40, y: 240}}
+            defaultPosition={{x: 40, y: 140}}
             position={null}
             grid={[25, 25]}
             scale={1}
